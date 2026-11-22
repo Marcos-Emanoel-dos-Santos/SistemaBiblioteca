@@ -1,5 +1,5 @@
 
-package com.ees.pp.Adapter;
+package pp.Adapter;
 
 // Conta corresponde a TargetIF
 public interface Conta

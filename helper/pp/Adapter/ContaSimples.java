@@ -1,5 +1,5 @@
 
-package com.ees.pp.Adapter;
+package pp.Adapter;
 
 public class ContaSimples implements Conta
 {

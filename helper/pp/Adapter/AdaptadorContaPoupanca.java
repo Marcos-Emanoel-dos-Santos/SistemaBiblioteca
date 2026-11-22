@@ -1,5 +1,5 @@
 
-package com.ees.pp.Adapter;
+package pp.Adapter;
 
 // AdaptadorContaPoupanca a Adapter
 class AdaptadorContaPoupanca implements Conta

@@ -26,5 +26,8 @@ bin/
 ._*
 Thumbs.db
 
-# ---- Material de apoio do professor (descomente se a equipe confirmar) ----
-# helper/
+# ---- Material de apoio ----
+helper/
+
+# ---- Documentação (descomentar quando o projeto estiver totalmente revisado e funcionando) ----
+docs/
