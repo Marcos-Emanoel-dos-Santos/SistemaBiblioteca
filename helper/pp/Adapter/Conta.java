@@ -1,9 +1,0 @@
-
-package pp.Adapter;
-
-// Conta corresponde a TargetIF
-public interface Conta
-{
-    int digaNumero( );
-    double digaSaldo( );
-}
