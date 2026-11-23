@@ -86,7 +86,7 @@ public final class MenuPrincipal {
             console.linha("2 - Circulacao (Reservar, Consultar Reserva, Emprestar, Renovar) [Estudante]");
             console.linha("3 - Devolucao, Inspecao, Reparo e Multas [Atendente]");
             console.linha("4 - Consulta Publica (Decorator) e Hierarquia do Acervo (Composite)");
-            console.linha("5 - Executar Demonstracao Guiada (fluxo completo dos 5 minutos)");
+            console.linha("5 - Executar Demonstracao Guiada");
             console.linha("0 - Sair");
 
             String opcao = console.lerTexto("Escolha uma opcao");

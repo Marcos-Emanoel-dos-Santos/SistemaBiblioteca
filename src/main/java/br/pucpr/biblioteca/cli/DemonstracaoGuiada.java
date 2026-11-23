@@ -22,7 +22,7 @@ import java.util.Objects;
 import java.util.Optional;
 
 /**
- * Roteiro executável do fluxo completo exigido na demonstração de 5 minutos:
+ * Roteiro executável do fluxo completo exigido:
  * cadastros (R07), hierarquia (R10), consulta decorada (R09), reserva e renovação idempotente
  * via Command (R06/R04/R01), empréstimo transacional (R04/R01), devolução atrasada com reações
  * independentes (R05), multa com Strategy (R02), cobrança e quitação idempotente via Adapter
@@ -114,7 +114,7 @@ public final class DemonstracaoGuiada {
         console.linha("Estado atual do livro:     " + sistema.tratadorDeAcervo().consultarLivro(idLivroDemo).estado());
 
         // 5. Renovacao via Command idempotente (R06 + R01)
-        console.secao("5. Renovacao Idempotente (R06 Command + R01 State)");
+        console.secao("5. Renovacao (R06 Command + R01 State)");
         SolicitacaoDeRenovacao solRenovacao = new SolicitacaoDeRenovacao(
                 "DEMO-REN-" + idLivroDemo, "cli-demo", relogio.instant(), idLivroDemo, matriculaDemo);
         ComprovanteDeRenovacao ren1 = sistema.tratadorDeEmprestimo().executarSolicitacao(solRenovacao);
